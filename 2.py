@@ -15,8 +15,13 @@
 #print(b)
 #print(id(b))
 
-a=input("enter the age")
+#a=input("enter the age")
+#print(a)
+#b=int(a)-10
+#print(b)
 
-print(a)
-b=int(a)-10
-print(b)
+a=int(input("enter the number:"))
+if(a%2==0):
+	print("a is even")
+else:
+	print("a is odd")
