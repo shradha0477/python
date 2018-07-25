@@ -20,8 +20,18 @@
 #b=int(a)-10
 #print(b)
 
+#a=int(input("enter the number:"))
+#if(a%2==0):
+	#print("a is even")
+#else:
+	#print("a is odd")
+
 a=int(input("enter the number:"))
-if(a%2==0):
-	print("a is even")
-else:
-	print("a is odd")
+def check_odd(a):
+	if(a%2==0):
+		return False
+	else:
+	
+		return True
+
+print(check_odd(a))
